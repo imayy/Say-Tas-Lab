@@ -1,3 +1,6 @@
+--Muhammet Ali YAHŞİ 365289
+--VHDL ile 1 bit Full Adder
+
 library IEEE;
 Use IEEE.std_logic_1164.all;
 
