@@ -13,6 +13,6 @@ Architecture Behv of one_bit_full_adder is
   
 Begin
   sum <= a xor b xor cin;
-  cout <= (a and b) or (cin and a) or (cin and b);
+  cout <= (a and b) or ( (a xor b) and cin);
   
 End;
